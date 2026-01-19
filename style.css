@@ -1,0 +1,50 @@
+*{
+    margin: 10px;
+    padding: 5px;
+}
+
+body{
+    background-color: rgb(79, 237, 255);
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    background-color: rgb(180, 237, 214);
+}
+ul{
+    display: flex;
+    background-color: #ef9999;
+}
+
+li{
+    padding: 20px;
+    font-size: 25px;
+    list-style: none;
+    cursor: pointer;
+}
+
+:root{
+    --bg:rgb(0, 0, 0);
+    --highlighter:yellow;
+}
+
+ul>li:first-child{
+    background-color: var(--bg);
+    color: aliceblue;
+}
+
+.para p{
+    font-size: 28px;
+text-align: justify;
+}
+
+.btn button{
+     font-size: 25px;
+     background-color: pink;
+}
+button:hover{
+    cursor: pointer;
+    background-color: var(--highlighter);
+}
+
